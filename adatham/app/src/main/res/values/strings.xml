@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">Adaatham</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="karobari_samiti">કારોબારી સમિતિ</string>
+    <string name="samajik_yojana">સામાજિક સુરક્ષા યોજના </string>
+    <string name="sabhasad_mahiti">સભાસદની માહિતી</string>
+    <string name="samaj_info">સમાજ વિશે માહિતી</string>
+
+    <string name="trust_shree">ટ્રસ્ટ્રીશ્રી</string>
+    <string name="hoddedar">હોદ્દેદારશ્રી  </string>
+    <string name="karobari"> કારોબારી સભ્ય શ્રી</string>
+    <string name="pratinidhi">પ્રતિનિધિશ્રી </string>
+
+    <string name="mrutak">મૃતક સભાસદની યાદી</string>
+    <string name="bride">અપરણીત યુવક-યુવતીની માહિતી</string>
+    <string name="business">વ્યવસાય અંગે માહિતી</string>
+
+
+    <string name="member_reg">Member\nRegistration</string>
+    <string name="member_info">Member\nInformation</string>
+    <string name="download_form">Download\nForm</string>
+    <string name="social_yojana">Social\nSecurity\nScheme</string>
+    <string name="Send_msg">Send Message</string>
+    <string name="Happy_birthday">Happy\nBirthDay</string>
+    <string name="news">News</string>
+
+
+    <string name="arji_patrak">Application Form</string>
+    <string name="sarnama_ferfar">Changes in Address Form</string>
+    <string name="varas_ferfar">Changes in Nominee Form</string>
+    <string name="mrutyu_sahay">Death Claim Form</string>
+    <string name="Abhinandan">Greetings Form</string>
+    <string name="samajik_surksha">Social security Form</string>
+    <string name="professional_dir">Professional Directory Form</string>
+    <string name="yuvak_yuvti">Marriage Form</string>
+
+    <string name="death_info">Death\nMember Info</string>
+    <string name="yuvati_info">Matrimonial\n Info</string>
+    <string name="professional_info">Professional\n Info</string>
+    <string name="your_member">Your Member</string>
+    <string name="apply_for_ssy">Apply for ssy</string>
+    <string name="pay_premium">Pay Premium</string>
+    <string name="update_challan">Update Challan</string>
+
+    <string-array name="search_member">
+        <item>Member No</item>
+        <item>Member Name</item>
+        <item>City</item>
+        <item>Native</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>All</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+
+    </string-array>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+
+    <string name="about_us">અન્ય વિકસિત સમાજોમાંથી પ્રેરણા લઈ સમાજસેવાની ખેવનાવાળા ૨૫ થી ૩૦ યુવાનો સામાજીક સુરક્ષા યોજનાના વિચાર સાથે મળ્યા અને વિચાર વિમર્શને અંતે શ્રી અડા આઠમ મેવાડા સુથાર વેલફેર ટ્રસ્ટ નવપલ્લવિત થયું.આ મીટીંગમાં ટ્રસ્ટી, હોદ્દેદારો કારોબારી સભ્યોની સર્વાનુંમતે વરણી કરવામાં આવી . ટ્રસ્ટનો વહીવટ અને આર્થિક પ્રવૃતિઓ સૂચારુ રીતે ચાલે તે માટે ટ્રસ્ટ રજીસ્ટેશન પણ કરવામાં આવ્યું છે.
+
+
+
+ “સામાજિક સુરક્ષા યોજના” ઉમદા કાર્યથી ટ્રસ્ટની સમાજ સેવાની પ્રવૃતિના શ્રી ગણેશ થયા. ટ્રસ્ટના રજીસ્ટર્ડ સ્ભ્યના આકસ્મિક મૃત્યું સમયે પરિવારને ‘શ્રદ્ધાંજલી ફાળાની રકમ’ પ્રાપ્તિ પરિવારના સ્વમાન અને આર્થિક વળતર બંને ઉદ્દેશો સાચવશે. યોજનાની વધુ વિગત યોજના અંગેની માહિતી તથા ટ્રસ્ટના ટ્રસ્ટી, હોદ્દેદારો, કારોબારી સભ્યો અને પ્રતિનિધિઓ ની  માહિતી સંપર્કના ઉદ્દેશથી રજુ કરી છે.\n\n સમાજના અસ્તિત્વથી આજસુધી ચાલતી આ સંસ્થા સમાજ નું સૌથી જુનુ સંગઠન છે. સમાજના વિસ્તૃત કાર્યક્ષેત્રને ધ્યાનમાં રાખી સમાજને વિસ્તાર આધારિત ત્રણ વિભાગમાં વહેચી છે છતાં આ ત્રણે વિભાગો સમવાયી પદ્ધતિથી સુંદર કામ કરે છે. આ વિભાગોને વડીલોએ પ્રાચીન તળપદા શબ્દ –‘તફા’ નું નામકરણ કરેલું છે. સમાજનું સંગઠન મજબુત બને, સામાજિક એકતા જળવાય તથા સમગ્ર સમાજમાં સુંદર ભાવાત્મક એકતા દ્ધારા સમાજ વિકાસના સોપાનો સર કરે તે ઉદ્દેશથી કામ કરતી આ સંસ્થા છે.
+
+
+આ સંસ્થા સમાજમાં પરિવાર - પરિવાર વચ્ચે તથા સગા - સબંધીઓમાં વિવાહ - વિચ્છેદ અને લગ્ન વિચ્છેદ જેવા પ્રશ્નો પેદા થાય તેને સુમેળથી સમાધાનકારી વલણ ધ્વારા નિષ્પક્ષ અને તટસ્થ રીતે નિકાલ કરી સામાજિક એકતા જાળવણી સાથે અન્ય મનભેદ – મતભેદ દૂર કરવાનો મુખ્ય ઉદ્દેશ છે જે તે તફા(વિભાગ)ના વડા તફાપ્રમુખ તરીકે નો હોદ્દો ધરાવે છે. આ તફાપ્રમુખો નિષ્પ્ક્ષ- તટસ્થ અને કોઈ પણ ભેદભાવ વિના ન્યાય આપે છે. તેથી પંચના આ પ્રમુખો સમાજમાં પ્રતિષ્ઠિત સ્થાન ધરાવે છે. અને સમાજ તેમની પાસેથી ઉત્તમ આદરણીય વર્તનની અપેક્ષા સેવે છે. સંક્ષેપમાં આ પ્રાચીન જ્ઞાતિપંચનું કામ સામાજિક ન્યાય ક્ષેત્રનું છે\n\nસમાજના સૌ જ્ઞાતીજનો લગ્ન/ યજ્ઞોપવિત પ્રસંગે ખોટા ખર્ચાઓ કરતા બંધ થાય અને સમૂહલગ્નોત્સવમાં જોડવાથી થયેલ આર્થિક બચત ને પોતાના વિકાસ કાર્યોમાં ખર્ચે તે ઉદ્દેશથી સ્થાપિત થયેલી આ સંસ્થા છેલ્લા ૧૬ વર્ષથી કાર્યરત છે. સમૂહલગ્ન સમિતિનું સુંદર માળખું ગોઠવાયેલું છે તેમાં વડીલો ની દીર્ધદ્રષ્ટિ અને આયોજન ક્ષમતા ને સમાજ વતી સાભાર સ્મરણ કરું છું.
+છેલ્લા ૧૬ વર્ષથી માર્કેટયાર્ડ ગાંભોઇમાં ઉજવાતો સમૂહલગ્નોત્સવ સામાજિક ઉત્સવનું સ્થાન ધરાવે છે. અડાઆઠમ મેવાડા સુથાર સમાજનો સમૂહલગ્નોત્સવ પોતાના સુંદર આયોજન દ્વારા અન્ય સમાજો માટે પ્રેરણાદાયી છે. તેમાં આગોતરું આયોજન જાણે કે સોનામાં સુગંધ ભળી હોય તેવું છે.
+
+સમૂહ લગ્નોત્સવને ત્રણ વિભાગમાં વહેચી શકાય (1) સંમેલન (૨) સમૂહલગ્નોત્સવ (૩) ભોજન-ચા-કૉફીની વ્યવસ્થા.
+
+સંમેલનમાં સમાજ માટે ત્યાગની ભાવનાવાળા દાતાઓને ફૂલછડીથી સન્માન આપી સમાજ તેમની સમાજસેવા અને ત્યાગભાવનાને બિરદાવે છે. સમિતિના હોદ્દેદારો સમિતિની પ્રવૃતિઓ અને ભાવિ આયોજન અંગે ખ્યાલ આપે છે. આ ઉપરાંત સમાજ વિશિષ્ટ શૈક્ષણિક સિદ્ધિ મેળવતા તેજસ્વી તારલાઓ તથા પેન્શનર/સિનિયર સીટીઝન સન્માન ની પ્રવૃતિઓ પણ કરે છે.
+
+સમૂહલગ્નમાં જોડાનાર ભાવિદંપતીઓને વિદ્ધાંન બ્રાહ્મણો દ્વારા વૈદિક મંત્રોચ્ચારથી લગ્નવિધિ તથા યજ્ઞોપવિત વિધિ કરાવવામાં આવે છે. છેલ્લે કન્યાવિદાય સમયે ‘પૈડા સિંચન વિધિ ‘ સુધી સૌ જ્ઞાતિજનો ની ઉપસ્થિત સૂચક હોય છે. સમૂહલગ્નોત્સવમાં જોડાયેલ કન્યાઓને કન્યાદાન પેટે ઉપયોગી, અંદાજે ૫૦ જેટલી વસ્તુઓ, દર વર્ષે આપવામાં આવે છે. તેનો એક બ્લોક કરી તેનું સુંદર પ્રદર્શન પણ કરાય છે. યુવક યુવતીઓને રજીસ્ટર્ડ લગ્નનોંધણી પ્રમાણપત્ર પણ આપવામાં આવે છે.
+
+ભોજન, ચા-કૉફી, પાણીની વ્યવસ્થા પણ અમારા સમૂહ લગ્નોસ્તવની આગવી વિશેષતા છે. અન્નના બગાડ ને અટકાવવા ના ઉદ્દેશ સાથે સુંદર ભોજન વ્યવસ્થા કરાય છે.સમાજ ના ઉત્સાહી કાર્યકર્તાઓ તેમાં વ્યવસ્થાના ભાગરૂપે ભારે જેહમત ઉઠાવે છે. સૌ જ્ઞાતિજનોનું સ્વાગત સવારે ૮ થી ૯:૩૦ ચા - કૉફીથી કરવામાં આવે છે.પાણી ની વ્યવસ્થા પણ સુંદર હોય છે.
+
+આ સમગ્ર કાર્યક્રમમાં સમાજના સૌ સેવાભાવી જ્ઞાતિજનો, હોદ્દેદારો, કારોબારી સભ્યો સાથે ખભેખભા મિલાવી સુંદર કામ કરે છે અને કાર્યક્રમની સફળતામાં પોતાનું યોગદાન આપે છે.
+
+આ ત્રણે સંસ્થાઓ સમાજના આર્થિક, ભાવાત્મક અને સાંસ્કૃતિક વિકાસ માં પરસ્પર સુંદર સહયોગ આપી સમાજ વિકાસની હરણફાળ ભરે તે ઉદેશ માટે નિસ્વાર્થ ઉત્તમ સેવા આપે છે તે સમાજ માટે ગૌરવ ની વાત છે.
+
+આ ઉપરાંત સમાજના જુદા જુદા શહેરોમાં પણ સામાજિક સંગઠનો રચાયા છે. તેમાં મુંબઈ, અમદાવાદ, હિંમતનગર , ગાંધીનગર જેવા શેહરો માં વિકાસ મંડળ, મહિલા મંડળો પોતાની વિશિષ્ટ છાપ ઉપસાવી શક્યા છે. અન્ય ગામોમાં પણ “વિશ્વકર્મા જયંતી” નિમિત્તે દાદાની પૂજા અર્ચના તથા પ્રસાદી રૂપે સહભોજનના કાર્યક્રમો આયોજિત થાય છે.</string>
+    <string name="title_activity_your_collection">YourCollectionActivity</string>
+
+
+    <string-array name="village_name">
+        <item> ADAPODARA</item>
+        <item> BAKROL</item>
+        <item> BAMNA </item>
+        <item> BAVASAR</item>
+        <item> BAYAL DHANKHROL</item>
+        <item> BHENSAWADA </item>
+        <item> BHESHAVADA </item>
+        <item> BHILODA </item>
+        <item> CHEKHALA </item>
+        <item> CHICHANO </item>
+        <item> DAMAI </item>
+        <item> DEMAI </item>
+        <item> DHANKHROL </item>
+        <item> DHANSURA </item>
+        <item> DHUNDHAR  </item>
+        <item> DUGARWADA </item>
+        <item> FATEPUR </item>
+        <item> FATEPUR (MOTA)  </item>
+        <item> FOJIWADA  </item>
+        <item> GABAR  </item>
+        <item> GABAT </item>
+        <item> GADHADA </item>
+        <item> GANDHINAGAR </item>
+        <item> HATHROL </item>
+        <item> HIMATNAGAR  </item>
+        <item> ITADI  </item>
+        <item> JITPUR </item>
+        <item> JUNI SHINOL </item>
+        <item> KABODRA </item>
+        <item> KARANPUR </item>
+        <item> KATHAWADA </item>
+        <item> KHAMBHISAR </item>
+        <item> KHERADI </item>
+        <item> MALPUR </item>
+        <item> MANDHARI </item>
+        <item> MANORPUR </item>
+        <item> MAU  </item>
+        <item> MEDHASAN </item>
+        <item> MEGHRAJ </item>
+        <item> MODASA </item>
+        <item> MOHANPUR </item>
+        <item> MONDHARI </item>
+        <item> MONDHARY </item>
+        <item> MOTA CHEKHALA </item>
+        <item> MOTI CHICHAN  </item>
+        <item> NANAWADA </item>
+        <item> NAVA </item>
+        <item> NAVA BHAVNATH </item>
+        <item> NIKODA </item>
+        <item> PEDAMALA </item>
+        <item> PEDHAMALA </item>
+        <item> PIPRANA </item>
+        <item> RAIGADH </item>
+        <item> RAKHIYAL </item>
+        <item> RAMOS  </item>
+        <item> RANASAN </item>
+        <item> RUPAL </item>
+        <item> SADHA </item>
+        <item> SARDOI </item>
+        <item> SHAMPUR </item>
+        <item> SHIKA </item>
+        <item> SHINOL  </item>
+        <item> TAKATUKA </item>
+        <item> TAKHATGADHKAMPA </item>
+        <item> TINTOI  </item>
+        <item> UBHARAN </item>
+        <item> UBHRAN  </item>
+        <item> VADODARA </item>
+        <item> VARWADA  </item>
+
+
+    </string-array>
+    <string name="title_activity_add_matrimonial">AddMatrimonialActivity</string>
+    <string name="edit_detail">Edit Detail</string>
+
+
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:textColor="@android:color/black"
+            tools:text="1234"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:id="@+id/tvNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            tools:text="Nirav"
+            android:layout_below="@+id/tvPenalty"
+            android:textSize="12sp"
+            android:padding="5dp"
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_below="@+id/tvName"
+            tools:text="11-08-2017"
+            android:id="@+id/tvPremiumDate"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:layout_toStartOf="@+id/tvPremiumAmount"
+            android:id="@+id/lablePay"
+            android:text="Pay Amount:-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Penalty:-"
+            android:layout_toStartOf="@+id/tvPenalty"
+            android:id="@+id/lablePenalty"
+            android:layout_below="@+id/lablePay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/tvPremiumAmount"
+            android:textColor="@android:color/black"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            tools:text="2500"
+            android:id="@+id/tvPenalty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            tools:text="2500"
+            android:id="@+id/tvPremiumAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <CheckBox
+            android:layout_below="@+id/tvName"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/cbPay"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:id="@+id/tvStatus"
+            android:layout_below="@+id/tvPremiumDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            tools:text="Cash"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:id="@+id/tvStatusCOC"
+            android:layout_below="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+      <LinearLayout
+          android:visibility="gone"
+          android:layout_below="@+id/cbPay"
+          android:orientation="vertical"
+          android:id="@+id/llCheque"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <RadioGroup
+              android:visibility="gone"
+              android:id="@+id/rgCOC"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+              <RadioButton
+                  android:checked="true"
+                  android:text="Cash"
+                  android:id="@+id/rbCash"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+              <RadioButton
+                  android:text="Cheque"
+                  android:id="@+id/rbCheque"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+          </RadioGroup>
+
+          <EditText
+              android:visibility="gone"
+              android:hint="Bank Name"
+              android:inputType="text"
+              android:id="@+id/edtBankName"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+          <EditText
+              android:visibility="gone"
+              android:hint="Cheque No"
+              android:inputType="text"
+              android:id="@+id/edtChequeNo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+      </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

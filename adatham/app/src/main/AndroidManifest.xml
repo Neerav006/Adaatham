@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adaatham.suthar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+<!--    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />-->
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.adaatham.suthar.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity
+            android:name=".view.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.ChangePwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.ForgotPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.ForgotPwd22Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.ResetActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.MemberRegistrationActivity" />
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.PhotoUploadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.EditDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.EditImageActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.DownLoadFormActivity" />
+        <activity
+            android:name=".view.ViewDownloadDocumentActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.SearchMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.MemberDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.HappyBirthdayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.SendMsgActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.LatestNewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.DirectoryDashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.DeathMemberListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.BusinessDirectoryListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.BusinessDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.YourMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.MatrimonialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.MetrimonimalDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.SocialSecurityDashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.ApplyForSSyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.PaymentListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.PaymentDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.UpdateChalanActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".view.PayNoticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.PremiumDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme" />
+
+        <receiver android:name=".common.AlarmReceiver" />
+
+        <activity android:name=".view.ViewPdfActivity" />
+        <activity
+            android:name=".view.YourCollectionActivity"
+            android:label="@string/title_activity_your_collection"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".view.AddBusinessActivity" />
+        <activity android:name=".view.GroupViseFamily" />
+        <activity android:name=".view.AboutDevActivity" />
+        <activity
+            android:name=".view.AddMatrimonialActivity"
+            android:label="@string/title_activity_add_matrimonial"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
