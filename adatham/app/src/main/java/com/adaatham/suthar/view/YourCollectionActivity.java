@@ -496,7 +496,12 @@ public class YourCollectionActivity extends AppCompatActivity {
                                 if (premiumlistArrayList.get(k).getPayment_type().equals("0")) {
                                     table.addCell(new Phrase(lineSpacing, "Cash",
                                             FontFactory.getFont(FontFactory.TIMES_BOLD, 10)));
-                                } else {
+                                }
+                                else if(premiumlistArrayList.get(k).getPayment_type().equals("2")){
+                                    table.addCell(new Phrase(lineSpacing, "Online",
+                                            FontFactory.getFont(FontFactory.TIMES_BOLD, 10)));
+                                }
+                                else {
                                     table.addCell(new Phrase(lineSpacing, "Cheque",
                                             FontFactory.getFont(FontFactory.TIMES_BOLD, 10)));
                                 }

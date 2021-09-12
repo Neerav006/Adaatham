@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private final long DOUBLE_TAP = 1500;
     private final String root = "BA326C6BC3AD52ED2861784D680D2348F2F8DFB9131DF2AAECBFBE20C1884FF7";
-    private final String BASE_URL = "http://ssy.adaathamwelfare.org/";
+    private final String BASE_URL = "https://ssy.adaathamwelfare.org/";
     private long lastclick = 0;
     private TextInputEditText edtUserName;
     private TextInputEditText edtPwd;
@@ -222,7 +222,7 @@ public class LoginActivity extends AppCompatActivity {
 
     interface LoginAPI {
 
-        @POST("home/loginapi/")
+        @POST("home/loginapi")
         @FormUrlEncoded
         Call<MyRes> login(@Field("email") String username,
                           @Field("password") String pwd, @Field("root") String root

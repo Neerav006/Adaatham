@@ -55,7 +55,7 @@ public class DownLoadFormActivity extends AppCompatActivity {
              @Override
              public void onClick(View v) {
                  Intent intent=new Intent(DownLoadFormActivity.this,ViewDownloadDocumentActivity.class);
-                 intent.putExtra("path",PDF_VIEW_BASE.concat("http://ssy.adaathamwelfare.org/CIRCULAR_2017.pdf")) ;
+                 intent.putExtra("path",PDF_VIEW_BASE.concat("https://ssy.adaathamwelfare.org/CIRCULAR_2017.pdf")) ;
                  startActivity(intent);
              }
          });

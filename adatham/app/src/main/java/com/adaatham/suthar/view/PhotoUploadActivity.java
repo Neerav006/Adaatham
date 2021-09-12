@@ -49,7 +49,7 @@ public class PhotoUploadActivity extends AppCompatActivity {
     private static final String IMAGE_DIRECTORY = "/Adatham";
     private static final String FILE_NAME = "profile";
     private final int GALLERY = 1, CAMERA = 2;
-    private String VIEW_PATH = "http://ssy.adaathamwelfare.org/profile/";
+    private String VIEW_PATH = "https://ssy.adaathamwelfare.org/profile/";
     private Uri fileUri;
     private Uri output;
     private String path;

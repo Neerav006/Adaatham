@@ -35,7 +35,7 @@ public class MetrimonimalDetailActivity extends AppCompatActivity {
     private TextView tvYearlyIncome;
 
     private Marriagelist marriagelist;
-    private String VIEW_PATH = "http://ssy.adaathamwelfare.org/profile/";
+    private String VIEW_PATH = "https://ssy.adaathamwelfare.org/profile/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

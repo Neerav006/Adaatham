@@ -12,9 +12,9 @@ public class Constants {
     public static final String ROLE="role";
     public static final String MEMBER_ID="mem_id";
     public static  final String MEMBER_NO="mem_no";
-   // public static final String BASE_URL = "http://ssy.adaathamwelfare.org/";
+   // public static final String BASE_URL = "https://ssy.adaathamwelfare.org/";
 
-    public static final String BASE_URL = "http://ssy.adaathamwelfare.org/";
+    public static final String BASE_URL = "https://ssy.adaathamwelfare.org/";
     public static final String root = "BA326C6BC3AD52ED2861784D680D2348F2F8DFB9131DF2AAECBFBE20C1884FF7";
     public static final String MAP_URL = "https://maps.googleapis.com/";
     public static final int SUCCESS_RESULT = 0;

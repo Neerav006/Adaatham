@@ -62,7 +62,7 @@ public class EditImageActivity extends AppCompatActivity {
     private int PROFILE_TYPE;
     private HashMap<Integer, String> myPaths;
     private String reg_id;
-    private String VIEW_PATH = "http://ssy.adaathamwelfare.org/profile/";
+    private String VIEW_PATH = "https://ssy.adaathamwelfare.org/profile/";
 
     private AppBarLayout appBar;
     private Toolbar toolbar;

@@ -32,7 +32,7 @@ public class HappyBirthdayActivity extends AppCompatActivity {
     private AppBarLayout appBar;
     private Toolbar toolbar;
     private RecyclerView rvList;
-    private String VIEW_PATH = "http://ssy.adaathamwelfare.org/profile/";
+    private String VIEW_PATH = "https://ssy.adaathamwelfare.org/profile/";
     private ArrayList<Bod> bodArrayList;
     private CustomAdapter customAdapter;
     private GetBirthDayOf getBirthDayOf;

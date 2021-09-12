@@ -66,7 +66,7 @@ public class MatrimonialActivity extends AppCompatActivity implements OnFilter {
     private ArrayList<Marriagelist> marriagelists;
     private ArrayList<Categorylist> categorylists;
     private CustomAdapter customAdapter;
-    private String VIEW_PATH = "http://ssy.adaathamwelfare.org/profile/";
+    private String VIEW_PATH = "https://ssy.adaathamwelfare.org/profile/";
     private GetCategory getCategory;
     private MyCustomAdapter myCustomAdapter;
     private EditText edtVillageName;

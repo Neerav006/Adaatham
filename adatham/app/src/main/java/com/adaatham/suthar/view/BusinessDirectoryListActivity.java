@@ -63,7 +63,7 @@ public class BusinessDirectoryListActivity extends AppCompatActivity {
     private CustomAdapter customAdapter;
     private String gor;
     private String id;
-    private String VIEW_PATH = "http://ssy.adaathamwelfare.org/profile/";
+    private String VIEW_PATH = "https://ssy.adaathamwelfare.org/profile/";
     private EditText edtSearchByBusinessName;
     private EditText edtSearchByDesignation;
     private Button btnSearch;

@@ -29,7 +29,7 @@ import retrofit2.http.POST;
 
 public class ForgotPwd22Activity extends AppCompatActivity {
     private final long DOUBLE_TAP = 1500;
-    private final String BASE_URL = "http://ssy.adaathamwelfare.org/";
+    private final String BASE_URL = "https://ssy.adaathamwelfare.org/";
     private TextInputLayout tiMobile;
     private TextInputEditText edtOTP;
     private Button btnSubmit;

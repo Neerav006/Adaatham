@@ -27,7 +27,7 @@ import retrofit2.http.POST;
 
 public class ChangePwdActivity extends AppCompatActivity {
 
-    private final String BASE_URL = "http://ssy.adaathamwelfare.org/";
+    private final String BASE_URL = "https://ssy.adaathamwelfare.org/";
     private final String root = "50e423ff4b2b6fd7d61055c4a80bb55d0b6fdbe8fa2a4ad6459087e729d2a11c";
     private TextInputEditText edtOld;
     private TextInputEditText edtNew;

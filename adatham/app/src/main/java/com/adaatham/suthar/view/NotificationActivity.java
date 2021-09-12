@@ -31,7 +31,7 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
 
 public class NotificationActivity extends AppCompatActivity {
-    private final String BASE_URL = "http://ssy.adaathamwelfare.org/";
+    private final String BASE_URL = "https://ssy.adaathamwelfare.org/";
     private RecyclerView rvList;
     private TextView tvNoNotification;
     private CustomAdapter customAdapter;
